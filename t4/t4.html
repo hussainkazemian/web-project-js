@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arvosanalaskin</title>
+    <script src="t4.js" defer></script>
+</head>
+<body>
+    <h1>Kurssin Arvosanalaskin</h1>
+
+    <!-- Input for the score -->
+    <label for="score">Enter your score:</label>
+    <input type="number" id="score" min="0" max="100" placeholder="e.g. 85">
+    <br><br>
+
+    <!-- Button to calculate the grade -->
+    <button onclick="calculateGrade()">Arvosana</button>
+
+    <!-- Section to display the grade -->
+    <h2 id="target"></h2>
+</body>
+</html>
